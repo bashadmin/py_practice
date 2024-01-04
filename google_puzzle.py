@@ -11,4 +11,4 @@ binary_strings = [
 # Converting binary strings to characters
 ascii_characters = [chr(int(binary, 2)) for binary in binary_strings]
 ascii_string = ''.join(ascii_characters)
-ascii_string
+print(ascii_string)
